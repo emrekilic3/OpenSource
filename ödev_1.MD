@@ -51,8 +51,8 @@ for x in range (10):
 
 **1)**  isim adlı bir değişlene bir isim tanımlanarak bunun ekrana yazdırılması
 ```bash
-$ isim='emre'
-$ echo $isim
+isim='emre'
+echo $isim
 ```
 **2)** isim ve soyisim değişkenleri tanımlanarak bunlara birer değeri verilmeli, bunların birleştirilmiş halleri bir kisi değişkenine eşitlenmeli ve kişi değişkeni ekrana yazdırılmalı.
 
