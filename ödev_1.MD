@@ -5,26 +5,26 @@
 1.1  >>> Bir uçbirim açın ve mevcut kabuğu ekrana yazdırın
 
 ```bash
-$ cat /etc/shells
-$ echo $SHELL
+cat /etc/shells
+echo $SHELL
 ```
 1.2  >>> bash kabuğuna geçerek çevre değişkenlerini ekrana yazdırın
 
 ```bash
-$ bash
-$ printenv
+bash
+printenv
 ```
 1.3  >>> sh kabuğuna geçerek çevre değişkenlerini ekrana yazdırın
 
 ```bash
-$ sh
-$ printenv
+sh
+printenv
 ```
 
 **2)** Python kabuğu üzerinde basit fonksiyon geliştirme
 
 ```bash
-$ python3
+python3
 ```
 
 ```python
@@ -57,15 +57,15 @@ $ echo $isim
 **2)** isim ve soyisim değişkenleri tanımlanarak bunlara birer değeri verilmeli, bunların birleştirilmiş halleri bir kisi değişkenine eşitlenmeli ve kişi değişkeni ekrana yazdırılmalı.
 
 ```bash
-$ isim='emre'
-$ soyisim='kilic'
-$ kisi=$isim' '$soyisim
-$ echo $kisi
+isim='emre'
+soyisim='kilic'
+kisi=$isim' '$soyisim
+echo $kisi
 ```
 
 **3)** /home/ dizininde iken /etc/systemd/system dizinine tek komut ile gidilmeli.
 
 ```bash
-$ cd ../../etc/systemd/system
+cd ../../etc/systemd/system
 ```
 
