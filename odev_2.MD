@@ -17,6 +17,12 @@ cd /var/www/html
 sudo touch havelsanHW2.html
 sudo nano havelsanHW2.html
 ```
+```html
+<html>
+	Havelsan Ödevi
+</html>
+```
+
 4) Check the current status of your apache server
 
 ```bash
