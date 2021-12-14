@@ -45,7 +45,7 @@ sudo nano /etc/logrotate.d/apache2
 
 }
 ```
-7) Compress logs using logrotate command
+7) Compress and rotate logs using logrotate command
 
 ```bash
 sudo logrotate -f /etc/logrotate.d/apache2
